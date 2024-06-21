@@ -1,0 +1,45 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  background-color: #000; 
+}
+
+.App {
+  text-align: center;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+button {
+  margin: 20px;
+}
+
+.glow-title {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.yay {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ff0000;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+h1.glow-title {
+  font-size: 4rem;
+  margin: 20px 0;
+}
+
